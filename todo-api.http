@@ -1,0 +1,33 @@
+### Get All Todos
+GET http://localhost:8080/api/todos
+
+### Get Todo by ID
+GET http://localhost:8080/api/todos/1
+
+### Create a Todo
+POST http://localhost:8080/api/todos
+Content-Type: application/json
+
+{
+  "title": "Buy groceries",
+  "description": "Milk, eggs, bread",
+  "completed": false
+}
+
+### Update a Todo
+PUT http://localhost:8080/api/todos/1
+Content-Type: application/json
+
+{
+  "title": "Buy groceries",
+  "description": "Milk, eggs, bread, butter",
+  "completed": true
+}
+
+### Filter by Status
+GET http://localhost:8080/api/todos/filter?completed=true
+
+### Delete a Todo
+DELETE http://localhost:8080/api/todos/1
+
+###
