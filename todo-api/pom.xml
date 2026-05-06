@@ -19,6 +19,7 @@
     <name>todo-api</name>
     <description>A simple To-Do REST API built with Spring Boot</description>
 
+    <!-- Java version -->
     <properties>
         <java.version>21</java.version>
     </properties>
@@ -55,6 +56,12 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
+        </dependency>
+
+        <!-- Jackson Java Time (LocalDateTime serialization) -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
         </dependency>
 
         <!-- Spring Boot Test (JUnit, Mockito, MockMvc) -->
