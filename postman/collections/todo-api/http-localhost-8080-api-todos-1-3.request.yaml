@@ -1,5 +1,0 @@
-$kind: http-request
-name: http://localhost:8080/api/todos/1
-url: http://localhost:8080/api/todos/1
-method: DELETE
-order: 4483150991717867
