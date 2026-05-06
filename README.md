@@ -6,8 +6,8 @@ A simple REST API for managing to-do tasks, built with Java Spring Boot.
 
 ## Tech Stack
 
-- Java 17
-- Spring Boot 3
+- Java 21
+- Spring Boot 4
 - Spring Data JPA
 - H2 In-Memory Database
 - Lombok
