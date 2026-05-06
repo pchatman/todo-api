@@ -1,0 +1,5 @@
+$kind: http-request
+name: http://localhost:8080/api/todos/1
+url: http://localhost:8080/api/todos/1
+method: GET
+order: 3935461073934593
