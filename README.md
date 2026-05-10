@@ -49,6 +49,9 @@ API runs at: `http://localhost:8080`
 | `DELETE` | `/api/todos/{id}`                  | Delete a todo       |
 
 ---
+> manual http requests with postman instructions [todo-manual-test-instructions](todo-manual-test-instructions.md)
+
+---
 
 ## License
 
